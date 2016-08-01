@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tabelas em HTML</title>
+		<meta name="keywords" content="tabelas, html, aprendendo, leticia, ferreira, claire, thousands, 1000s"/>
+		<meta name="description" content="Aprendendo a fazer tabelas em HTML."/>
+		<meta name="author" content="Leticia Ferreira"/>
+	</head>
+
+	<body>
+		<table border="1"> <!-- Borda da tabela. -->
+			<tr>
+				<td>Teste linha 1 Coluna 1</td>
+				<td>Teste Linha 1 Coluna 2</td>
+				<td>Teste linha 1 Coluna 3</td>
+			</tr>
+			<tr> <!-- TR: Linha da tabela -->
+				<td>Teste linha 2 Coluna 1</td> <!-- TD: Coluna na tabela -->
+				<td>Teste linha 2 Coluna 2</td>
+				<td>Teste Linha 2 Coluna 3</td>
+			</tr>
+		</table>
+			<br/><br/>
+		<table>
+			<tr>
+				<td>Tabela 2 L1 C1</td>
+				<td>Tabela 2 L1 C2</td>
+				<td>Tabela 2 L1 C3</td>
+			</tr>
+			<tr>
+				<td>Tabela 2 L2 C1</td>
+				<td>Tabela 2 L2 C2</td>
+				<td>Tabela 2 L2 C3</td>
+			</tr>
+		</table>
+		<br/><br/>
+		<table border="2" style="background-color: yellow;">
+			<caption>Linguagens</caption> <!-- Caption: Título da tabela -->
+			
+			<thead><tr><td>Tipos de Linguagens</td></tr></thead> <!-- Thead: cria o cabeçalho de uma tabela. -->
+			
+			<tbody> <!-- Tbody: cria o corpo de uma tabela. -->
+			<tr style="background-color: #FF0000; color: #FFFFFF; font-weight: bold;"><td>WEB</td><td>DESKTOP</td></tr>
+			<tr><td>HTML</td><td>C</td></tr>
+			<tr><td>CSS</td><td>C++</td></tr>
+			<tr><td>JavaScript</td><td>C#</td></tr>
+			<tr><td>PHP</td><td>Java</td></tr>
+			</tbody>
+
+			<tfoot> <!-- Tfoot: cria o rodapé de uma tabela. -->
+				<tr><td>By Leticia Ferreira</td></tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
